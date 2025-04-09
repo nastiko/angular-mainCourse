@@ -12,7 +12,6 @@ import {HeaderComponent} from './components/header/header.component';
     <main>
       <app-home />
     </main>
-
   `,
   styles: [
     `
@@ -23,5 +22,5 @@ import {HeaderComponent} from './components/header/header.component';
   ],
 })
 export class AppComponent {
-  title = 'angular-mainCourse';
+
 }
