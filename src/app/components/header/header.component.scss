@@ -1,0 +1,16 @@
+header {
+  padding: 0 25px;
+
+  ul {
+    display: flex;
+    column-gap: 25px;
+    padding: 0;
+
+    li {
+      list-style: none;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+  }
+}
+
