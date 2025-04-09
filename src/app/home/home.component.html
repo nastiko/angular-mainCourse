@@ -1,1 +1,4 @@
-<app-greeting [message]="message()" />
+<app-greeting [message]="message()"/>
+<app-counter/>
+<input placeholder="Write something..." (keyup)="keyUpHandler($event)"/>
+<p>User pressed the {{ keyPressed() }} key</p>
