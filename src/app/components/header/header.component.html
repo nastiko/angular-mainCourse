@@ -1,8 +1,12 @@
 <header>
   <nav>
     <ul>
-      <li>{{ titleHome() }}</li>
-      <li>{{ titleCategory() }}</li>
+      <li>
+        <a routerLink="">{{ titleHome() }}</a>
+      </li>
+      <li>
+        <a routerLink="/todos">{{ titleTodos() }}</a>
+      </li>
     </ul>
   </nav>
 </header>
